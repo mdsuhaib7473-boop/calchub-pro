@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete sitemap of CalcHub Pro - Find all our free online calculators, guides, and resources in one place.">
+    <meta name="robots" content="index, follow">
+    <title>Sitemap - CalcHub Pro | All Calculators & Resources</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-teal: #4db8c4;
+            --primary-purple: #7c6fd6;
+            --bg-light: #f5f7fa;
+            --card-bg: #ffffff;
+            --text-dark: #2c3e50;
+            --text-light: #6c757d;
+            --border-color: #e1e8ed;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-teal), var(--primary-purple));
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: var(--primary-teal);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--primary-purple);
+            transform: translateX(-5px);
+        }
+
+        .sitemap-section {
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .sitemap-section h2 {
+            color: var(--primary-teal);
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .sitemap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .sitemap-link {
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+            background: var(--bg-light);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-dark);
+            transition: all 0.3s;
+            border: 1px solid transparent;
+        }
+
+        .sitemap-link:hover {
+            background: white;
+            border-color: var(--primary-teal);
+            transform: translateX(5px);
+            box-shadow: 0 2px 8px rgba(77, 184, 196, 0.2);
+        }
+
+        .sitemap-link span {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .sitemap-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .sitemap-list li {
+            margin-bottom: 10px;
+        }
+
+        .sitemap-list a {
+            color: var(--text-dark);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+
+        .sitemap-list a:hover {
+            background: var(--bg-light);
+            color: var(--primary-teal);
+            padding-left: 20px;
+        }
+
+        .sitemap-list a::before {
+            content: "→";
+            margin-right: 8px;
+            opacity: 0;
+            transition: all 0.3s;
+        }
+
+        .sitemap-list a:hover::before {
+            opacity: 1;
+        }
+
+        .footer {
+            background: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+
+        .footer p {
+            opacity: 0.8;
+            font-size: 14px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .stat-card h3 {
+            font-size: 36px;
+            color: var(--primary-teal);
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .sitemap-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📍 CalcHub Pro Sitemap</h1>
+        <p>Complete directory of all calculators, guides, and resources</p>
+    </div>
+
+    <div class="container">
+        <a href="/" class="back-link">← Back to Homepage</a>
+
+        <div class="stats">
+            <div class="stat-card">
+                <h3>23+</h3>
+                <p>Calculators</p>
+            </div>
+            <div class="stat-card">
+                <h3>8</h3>
+                <p>Blog Guides</p>
+            </div>
+            <div class="stat-card">
+                <h3>100%</h3>
+                <p>Free & Private</p>
+            </div>
+            <div class="stat-card">
+                <h3>0</h3>
+                <p>Ads & Tracking</p>
+            </div>
+        </div>
+
+        <!-- Main Pages -->
+        <div class="sitemap-section">
+            <h2>🏠 Main Pages</h2>
+            <div class="sitemap-grid">
+                <a href="/" class="sitemap-link">
+                    <span>🏠</span>
+                    <div>
+                        <strong>Homepage</strong><br>
+                        <small>All calculators in one place</small>
+                    </div>
+                </a>
+                <a href="/#about" class="sitemap-link">
+                    <span>ℹ️</span>
+                    <div>
+                        <strong>About Us</strong><br>
+                        <small>Our mission and values</small>
+                    </div>
+                </a>
+                <a href="/#blog" class="sitemap-link">
+                    <span>📚</span>
+                    <div>
+                        <strong>Blog & Guides</strong><br>
+                        <small>Calculator tutorials</small>
+                    </div>
+                </a>
+                <a href="/#contact" class="sitemap-link">
+                    <span>📧</span>
+                    <div>
+                        <strong>Contact</strong><br>
+                        <small>Get in touch with us</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Basic Calculators -->
+        <div class="sitemap-section">
+            <h2>🔢 Basic Calculators</h2>
+            <div class="sitemap-grid">
+                <a href="/#basic" class="sitemap-link">
+                    <span>🔢</span>
+                    <div>
+                        <strong>Basic Calculator</strong><br>
+                        <small>Standard arithmetic operations</small>
+                    </div>
+                </a>
+                <a href="/#scientific" class="sitemap-link">
+                    <span>🔬</span>
+                    <div>
+                        <strong>Scientific Calculator</strong><br>
+                        <small>Advanced math functions</small>
+                    </div>
+                </a>
+                <a href="/#percentage" class="sitemap-link">
+                    <span>📊</span>
+                    <div>
+                        <strong>Percentage Calculator</strong><br>
+                        <small>Calculate percentages easily</small>
+                    </div>
+                </a>
+                <a href="/#age" class="sitemap-link">
+                    <span>🎂</span>
+                    <div>
+                        <strong>Age Calculator</strong><br>
+                        <small>Calculate exact age</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Financial Calculators -->
+        <div class="sitemap-section">
+            <h2>💰 Financial Calculators</h2>
+            <div class="sitemap-grid">
+                <a href="/#loan" class="sitemap-link">
+                    <span>💰</span>
+                    <div>
+                        <strong>Loan Calculator</strong><br>
+                        <small>Calculate loan payments</small>
+                    </div>
+                </a>
+                <a href="/#emi" class="sitemap-link">
+                    <span>🏦</span>
+                    <div>
+                        <strong>EMI Calculator</strong><br>
+                        <small>Monthly installment calculator</small>
+                    </div>
+                </a>
+                <a href="/#sip" class="sitemap-link">
+                    <span>📈</span>
+                    <div>
+                        <strong>SIP Calculator</strong><br>
+                        <small>Mutual fund investment</small>
+                    </div>
+                </a>
+                <a href="/#tax" class="sitemap-link">
+                    <span>💼</span>
+                    <div>
+                        <strong>Income Tax Calculator</strong><br>
+                        <small>Calculate tax liability (India)</small>
+                    </div>
+                </a>
+                <a href="/#gst" class="sitemap-link">
+                    <span>🧾</span>
+                    <div>
+                        <strong>GST Calculator</strong><br>
+                        <small>Add/Remove GST</small>
+                    </div>
+                </a>
+                <a href="/#salary" class="sitemap-link">
+                    <span>💵</span>
+                    <div>
+                        <strong>Salary Calculator</strong><br>
+                        <small>CTC to In-Hand</small>
+                    </div>
+                </a>
+                <a href="/#retirement" class="sitemap-link">
+                    <span>🏖️</span>
+                    <div>
+                        <strong>Retirement Calculator</strong><br>
+                        <small>Plan retirement corpus</small>
+                    </div>
+                </a>
+                <a href="/#fd" class="sitemap-link">
+                    <span>🏦</span>
+                    <div>
+                        <strong>FD Calculator</strong><br>
+                        <small>Fixed Deposit returns</small>
+                    </div>
+                </a>
+                <a href="/#ppf" class="sitemap-link">
+                    <span>💰</span>
+                    <div>
+                        <strong>PPF Calculator</strong><br>
+                        <small>Public Provident Fund</small>
+                    </div>
+                </a>
+                <a href="/#savings" class="sitemap-link">
+                    <span>🎯</span>
+                    <div>
+                        <strong>Savings Goal Calculator</strong><br>
+                        <small>Plan your savings</small>
+                    </div>
+                </a>
+                <a href="/#simple" class="sitemap-link">
+                    <span>📈</span>
+                    <div>
+                        <strong>Simple Interest</strong><br>
+                        <small>Calculate SI</small>
+                    </div>
+                </a>
+                <a href="/#compound" class="sitemap-link">
+                    <span>📊</span>
+                    <div>
+                        <strong>Compound Interest</strong><br>
+                        <small>Calculate CI with compounding</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Converters -->
+        <div class="sitemap-section">
+            <h2>🔄 Converters</h2>
+            <div class="sitemap-grid">
+                <a href="/#unit" class="sitemap-link">
+                    <span>🔄</span>
+                    <div>
+                        <strong>Unit Converter</strong><br>
+                        <small>Length, weight, temperature, etc.</small>
+                    </div>
+                </a>
+                <a href="/#currency" class="sitemap-link">
+                    <span>💱</span>
+                    <div>
+                        <strong>Currency Converter</strong><br>
+                        <small>Convert world currencies</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Shopping & Lifestyle -->
+        <div class="sitemap-section">
+            <h2>🛍️ Shopping & Lifestyle</h2>
+            <div class="sitemap-grid">
+                <a href="/#tip" class="sitemap-link">
+                    <span>💵</span>
+                    <div>
+                        <strong>Tip Calculator</strong><br>
+                        <small>Calculate tips & split bills</small>
+                    </div>
+                </a>
+                <a href="/#discount" class="sitemap-link">
+                    <span>🏷️</span>
+                    <div>
+                        <strong>Discount Calculator</strong><br>
+                        <small>Calculate sale prices</small>
+                    </div>
+                </a>
+                <a href="/#fuel" class="sitemap-link">
+                    <span>⛽</span>
+                    <div>
+                        <strong>Fuel Cost Calculator</strong><br>
+                        <small>Calculate vehicle running cost</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Health & Education -->
+        <div class="sitemap-section">
+            <h2>💪 Health & Education</h2>
+            <div class="sitemap-grid">
+                <a href="/#bmi" class="sitemap-link">
+                    <span>💪</span>
+                    <div>
+                        <strong>BMI Calculator</strong><br>
+                        <small>Body Mass Index calculator</small>
+                    </div>
+                </a>
+                <a href="/#gpa" class="sitemap-link">
+                    <span>🎓</span>
+                    <div>
+                        <strong>GPA Calculator</strong><br>
+                        <small>Grade Point Average</small>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Blog & Guides -->
+        <div class="sitemap-section">
+            <h2>📚 Blog & Guides</h2>
+            <ul class="sitemap-list">
+                <li><a href="/#blog">Blog Home - All Guides</a></li>
+                <li><a href="/#blog/bmi-guide">Complete BMI Calculator Guide</a></li>
+                <li><a href="/#blog/loan-guide">Loan Calculator Tutorial</a></li>
+                <li><a href="/#blog/percentage-guide">Percentage Tips & Tricks</a></li>
+                <li><a href="/#blog/scientific-guide">Scientific Calculator Guide</a></li>
+                <li><a href="/#blog/unit-guide">Unit Conversion Guide</a></li>
+                <li><a href="/#blog/gpa-guide">GPA Calculation Guide</a></li>
+                <li><a href="/#blog/tip-guide">Tipping Etiquette Guide</a></li>
+                <li><a href="/#blog/discount-guide">Smart Shopping with Discounts</a></li>
+            </ul>
+        </div>
+
+        <!-- Legal Pages -->
+        <div class="sitemap-section">
+            <h2>⚖️ Legal & Information</h2>
+            <ul class="sitemap-list">
+                <li><a href="javascript:showModal('privacy')">Privacy Policy</a></li>
+                <li><a href="javascript:showModal('terms')">Terms of Service</a></li>
+                <li><a href="javascript:showModal('disclaimer')">Disclaimer</a></li>
+            </ul>
+        </div>
+
+        <!-- Quick Facts -->
+        <div class="sitemap-section">
+            <h2>⚡ Quick Facts About CalcHub Pro</h2>
+            <ul class="sitemap-list">
+                <li>✅ 100% Free - No hidden charges or subscriptions</li>
+                <li>🔒 Privacy First - All calculations happen in your browser</li>
+                <li>📱 Mobile Friendly - Works perfectly on all devices</li>
+                <li>🌙 Dark Mode - Easy on the eyes, day or night</li>
+                <li>📊 23+ Calculators - From BMI to Retirement Planning</li>
+                <li>🚫 No Registration - Start calculating immediately</li>
+                <li>🎯 No Ads - Clean, distraction-free experience</li>
+                <li>💾 History Tracking - Review your past calculations</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 CalcHub Pro. All Rights Reserved.</p>
+        <p style="margin-top: 10px;">Making calculations simple since 2025</p>
+    </div>
+
+    <script>
+        // Modal function for legal pages (if needed)
+        function showModal(type) {
+            alert('Please visit the homepage to view ' + type.toUpperCase());
+        }
+    </script>
+</body>
+</html>
